@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans Medium";
+
+}
+ html,body{
+    height: 100%;
+    width: 100%;
+ }
+ #main{
+    width: 100%;
+    height: 100vmax;
+ }
+#hero{
+    color:#fff;
+    width:100%;
+    height:100vh;
+    background-color: #000;
+ }
+#nav a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+
+ }
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px ;
+    color: #fff;
+}
+#heading h1{
+    font-size: 9vw;
+    opacity:.6;
+    line-height: 1;
+    font-family: "General Sans";
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+#heading{
+    margin-top: 30px;
+}
+#heading #sec {
+    margin-left: 230px;
+}
+.blocktext{
+    width: fit-content;
+}
+.blocktext h5{
+    text-align: right;
+    font-size: 17px ;
+    text-align: 17px;
+}
+#tinyheadings{
+    margin-top: 10px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-size:15px;
+
+
+}
+#tinyheadings h5{
+    text-align: right;
+}
+#herofooter{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    padding: 0% 2vw;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#herofooter a{
+    color: #fff;
+    text-transform:uppercase;
+    text-decoration: none;
+
+}
+#herofooter #iconset{
+    display: flex;
+    gap :5px;
+}
+#herofooter .circle{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 25px;
+    height: 25 px;
+    border-radius: 50%;
+    background-color:#fff;
+}
+#secondPage{
+    padding-top: 200px;
+    color: #fff;
+    width: 100%;
+    height: 100vmax; 
+    background-color: #000;   
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    border-top: 1px solid #888;
+    padding: 3.5vw 3vw;
+    padding-right: 0%;
+
+}
+.elem{
+    text-transform: uppercase;
+    font-size: 3vw;
+    opacity:.6;
+}.elemlast {
+    border-bottom: 1px solid #888;
+}
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+.elemlast {
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    opacity: 0;
+    display: none;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    width: 100%;
+    background-color: #000;
+    padding: 10vw 5vw;
+    padding-left: 40vw;
+}
+#about img{
+    width: 200px;
+
+}
+#textabout{
+    width: 25rem;
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .8;
+}
+#textabout p{
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+#textabout a{
+    padding: 12px 22px ;
+    border: 1px solid #888;
+    border-radius: 100px ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+
+    
+}
